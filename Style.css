@@ -1,0 +1,47 @@
+
+body {
+    background-color: #f4f0f2 ;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.QrCode {
+    height: 31rem;
+    width: 20rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1.25rem;
+    padding: 0.62rem;
+}
+
+.imagemqrcode{
+    width: 19rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.65rem;
+}
+
+.texto {
+    width: 18rem;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Outfit", sans-serif;
+    color: #1F314F;
+    font-size: 1.4rem;
+    font-weight: 700 bold;
+}
+
+h2 {
+    font-family: "Outfit", sans-serif;
+    color: #68778D;
+    font-weight: 400;
+    font-size: 1rem;
+}
